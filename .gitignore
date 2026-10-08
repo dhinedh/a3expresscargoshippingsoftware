@@ -45,6 +45,7 @@ dist/
 **/*.db
 **/*.sqlite
 **/*.sqlite3
+!backend-node/tariff.db
 
 # Environment & IDE
 .env
