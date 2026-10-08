@@ -1,0 +1,10 @@
+{
+  "name": "a3-cargo-software",
+  "version": "2.0.0",
+  "description": "Sri Lanka Customs Import Tariff Digitizer & Shipment Management System",
+  "scripts": {
+    "dev:backend": "npm --prefix backend-node run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev": "npm run dev:backend"
+  }
+}

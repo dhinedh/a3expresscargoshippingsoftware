@@ -1,0 +1,7 @@
+search-path = [
+    "."
+]
+
+[errors]
+missing-import = "ignore"
+missing-attribute = "ignore"
