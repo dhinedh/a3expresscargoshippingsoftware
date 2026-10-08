@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "tsc && node -e \"const fs = require('fs'); fs.cpSync('dist', 'src', {recursive: true});\"",
+    "postinstall": "tsc && node -e \"const fs = require('fs'); fs.cpSync('dist', 'src', {recursive: true});\"",
     "start": "node --experimental-sqlite dist/server.js",
     "start:tsx": "tsx src/server.ts"
   },
