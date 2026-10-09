@@ -10,5 +10,7 @@ services:
         value: 22.13.0
       - key: DATABASE_PATH
         value: ./tariff.db
+      - key: NPM_CONFIG_PRODUCTION
+        value: "false"
       - key: MONGODB_URL
         value: mongodb+srv://thenna44ck_db_user:2dWQ2jrV762IvKs6@cluster0.phdzsgq.mongodb.net/a3_express?retryWrites=true&w=majority&appName=Cluster0
